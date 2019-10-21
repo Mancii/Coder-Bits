@@ -1,0 +1,59 @@
+@media (min-width: 565px) {
+    .tab-content .last{
+        display: none
+    }
+    .hero-content i{
+        bottom: 130px;
+    }
+}
+@media (min-width: 500px) and (max-width:600px) {
+    .modal .modal-body img{
+        width: 370px
+    }
+    .hero-content i{
+        bottom: 134px;
+    }
+    .hero-section .hero-content h1{
+        font-size: 1.8em;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .tab-content .last{
+        display: block
+    }
+    .hero-content i{
+        bottom: 30px
+    }
+}
+@media only screen and (max-width:991px){
+    
+    .profile-description p{
+        height: 298px;
+        overflow: hidden;
+    }
+    .profile-description .profile-icon{
+        padding-top: 10px
+    }
+    .skill-header p{
+        height: 170px;
+        overflow: hidden;
+    }
+    .skill .padding-60{
+        padding: 0 !important
+    }
+    .profile-icon{
+        display: none
+    }
+}
+@media (min-width: 1200px) {
+    .hero-content i{
+        bottom: 5px
+    }
+    .navbar .container {
+        max-width: 1214px;
+    }
+    
+ }
+ 
